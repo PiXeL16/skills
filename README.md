@@ -25,9 +25,9 @@ Each top-level directory under `skills/` is one skill. Open the `SKILL.md` insid
 
 ## What's in here
 
-**45 skills**, loosely grouped by intent.
+**43 skills**, loosely grouped by intent.
 
-### 🛠 Engineering workflow
+### Engineering workflow
 
 The day-to-day "what am I doing right now" verbs.
 
@@ -48,7 +48,7 @@ The day-to-day "what am I doing right now" verbs.
 | [`to-prd`](skills/to-prd/) | Turn the current context into a PRD |
 | [`zoom-out`](skills/zoom-out/) | Step back from the weeds |
 
-### 🎨 Design & UX
+### Design & UX
 
 A cohesive set of design skills that share a single source of design principles (`frontend-design`). Each one is a different lens.
 
@@ -73,7 +73,7 @@ A cohesive set of design skills that share a single source of design principles 
 | [`clarify`](skills/clarify/) | UX copy, microcopy, error messages |
 | [`walkthrough`](skills/walkthrough/) | Open each new feature in Chrome and narrate a guided UX pass |
 
-### 🧠 Productivity & meta
+### Productivity & meta
 
 | Skill | What it does |
 |---|---|
@@ -82,29 +82,27 @@ A cohesive set of design skills that share a single source of design principles 
 | [`write-a-skill`](skills/write-a-skill/) | Scaffold a new skill with proper structure and progressive disclosure |
 | [`setup-matt-pocock-skills`](skills/setup-matt-pocock-skills/) | Bootstrap the project context the engineering skills expect |
 
-### 📒 Personal & misc
+### Personal & misc
 
 | Skill | What it does |
 |---|---|
 | [`edit-article`](skills/edit-article/) | Restructure and tighten article drafts |
-| [`obsidian-vault`](skills/obsidian-vault/) | Search, create, and link notes in an Obsidian vault |
 | [`codex-review`](skills/codex-review/) | Run an OpenAI Codex review on the current branch, fix P0/P1, commit |
 | [`setup-pre-commit`](skills/setup-pre-commit/) | Husky + lint-staged + typecheck + tests, set up in one shot |
 | [`git-guardrails-claude-code`](skills/git-guardrails-claude-code/) | Hooks that block destructive git commands before they run |
 | [`scaffold-exercises`](skills/scaffold-exercises/) | Exercise directory scaffolding for course content |
-| [`migrate-to-shoehorn`](skills/migrate-to-shoehorn/) | Replace `as` assertions in tests with `@total-typescript/shoehorn` |
 
 ## Inspiration & credits
 
 This collection wouldn't exist without people generously publishing their work.
 
-### 🧑‍🏫 [`mattpocock/skills`](https://github.com/mattpocock/skills)
+### [`mattpocock/skills`](https://github.com/mattpocock/skills)
 
 The entire **engineering workflow** category, plus the **productivity & meta** skills (apart from `handoff`-style helpers I'd already adopted), come from Matt Pocock's public skills repo — specifically the `engineering/`, `misc/`, `personal/`, and `productivity/` directories. Matt's `diagnose`, `tdd`, `prototype`, `grill-me`, `to-issues`, `to-prd`, and `triage` are particularly excellent — they encode a coherent way of working that pays off across projects.
 
 If you want the canonical, kept-up-to-date versions, go to the source.
 
-### 🎨 The "Impeccable" design skill pack
+### The "Impeccable" design skill pack
 
 The design category (`frontend-design`, `audit`, `polish`, `critique`, `bolder`, `quieter`, `colorize`, `distill`, `delight`, `harden`, `adapt`, `extract`, `normalize`, `onboard`, `optimize`, `animate`, `clarify`, `teach-impeccable`, `walkthrough`) is built around the **Impeccable** design skill pack. Its root skill, `frontend-design`, carries an explicit `license: Apache 2.0. Based on Anthropic's frontend-design skill.` line in its frontmatter — so the lineage is:
 
@@ -116,7 +114,7 @@ Anthropic's official frontend-design skill (Apache-2.0)
 
 The other design skills (`audit`, `polish`, …) chain into `frontend-design` as their single source of design principles, which is how the pack stays cohesive.
 
-### 🛠 My own additions
+### My own additions
 
 A small handful are mine:
 

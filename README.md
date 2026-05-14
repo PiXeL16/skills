@@ -9,16 +9,16 @@ A curated collection of agent skills I use day to day. Drop them into `~/.claude
 Clone and copy whatever you want into your skills directory:
 
 ```bash
-git clone https://github.com/PiXeL16/claude-skills.git
-cp -R claude-skills/skills/* ~/.claude/skills/
+git clone https://github.com/PiXeL16/skills.git
+cp -R skills/skills/* ~/.claude/skills/
 ```
 
 Or cherry-pick:
 
 ```bash
-cp -R claude-skills/skills/diagnose ~/.claude/skills/
-cp -R claude-skills/skills/tdd      ~/.claude/skills/
-cp -R claude-skills/skills/handoff  ~/.claude/skills/
+cp -R skills/skills/diagnose ~/.claude/skills/
+cp -R skills/skills/tdd      ~/.claude/skills/
+cp -R skills/skills/handoff  ~/.claude/skills/
 ```
 
 Each top-level directory under `skills/` is one skill. Open the `SKILL.md` inside to see what it does and when it triggers.
